@@ -11,11 +11,7 @@ export class PlacesService {
       '1',
       'mindtree',
       'welcome to possible',
-<<<<<<< HEAD
-      'https://upload.wikimedia.org/wikipedia/en/3/35/MindTree_Chennai_Campus.JPG',
-=======
       'https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1498533565/v48m7bvc4ae4fdvbdnao.png',
->>>>>>> 72313c3f608c49f23be85ada90e0a8d9c9b95a6a
       100
     ),
     new PlacesModel(
@@ -39,12 +35,9 @@ export class PlacesService {
     return [...this._places];
   }
 
-<<<<<<< HEAD
-=======
   getPlace(id: string) {
     return { ...this._places.find(p => p.id === id) };
   }
 
->>>>>>> 72313c3f608c49f23be85ada90e0a8d9c9b95a6a
   constructor() { }
 }

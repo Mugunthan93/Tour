@@ -1,12 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-=======
 import { ActivatedRoute } from '@angular/router';
 import { PlacesModel } from '../../places.model';
 import { NavComponent } from '@ionic/core';
 import { NavController } from '@ionic/angular';
 import { PlacesService } from '../../places.service';
->>>>>>> 72313c3f608c49f23be85ada90e0a8d9c9b95a6a
 
 @Component({
   selector: 'app-offer-bookings',
@@ -15,11 +12,6 @@ import { PlacesService } from '../../places.service';
 })
 export class OfferBookingsPage implements OnInit {
 
-<<<<<<< HEAD
-  constructor() { }
-
-  ngOnInit() {
-=======
   place: PlacesModel;
 
   constructor(
@@ -37,7 +29,6 @@ export class OfferBookingsPage implements OnInit {
         this.place = this.placeService.getPlace(paramMap.get('placeId'));
       }
     );
->>>>>>> 72313c3f608c49f23be85ada90e0a8d9c9b95a6a
   }
 
 }
